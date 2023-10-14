@@ -60,46 +60,6 @@ body {
 
 }
 
-.box div:nth-child(1) {
-  top: 12%;
-  left: 42%;
-  animation: animate 10s linear infinite;
-
-}
-
-.box div:nth-child(2) {
-  top: 70%;
-  left: 50%;
-  animation: animate 7s linear infinite;
-  -webkit-transition: 10s linear, opacity 10s linear;
-}
-.box div:nth-child(3) {
-  top: 17%;
-  left: 6%;
-  animation: animate 9s linear infinite;
-  -webkit-transition: 10s linear, opacity 10s linear;
-}
-
-.box div:nth-child(4) {
-  top: 20%;
-  left: 60%;
-  animation: animate 10s linear infinite;
-  -webkit-transition: 10s linear, opacity 10s linear;
-}
-
-.box div:nth-child(5) {
-  top: 67%;
-  left: 10%;
-  animation: animate 6s linear infinite;
-  -webkit-transition: 10s linear, opacity 10s linear;
-}
-
-.box div:nth-child(6) {
-  top: 80%;
-  left: 70%;
-  animation: animate 12s linear infinite;
-  -webkit-transition: 10s linear, opacity 10s linear;
-}
 
 
 @keyframes animate {
