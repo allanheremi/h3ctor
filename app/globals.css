@@ -54,6 +54,9 @@ body {
   width: 60px;
   height: 60px;
   background-color: transparent;
+  opacity: 1;
+  transition: transform 10s linear, opacity 10s linear;
+  -webkit-transition: -webkit-transform 10s linear, opacity 10s linear;
 
 }
 
@@ -61,7 +64,7 @@ body {
   top: 12%;
   left: 42%;
   animation: animate 10s linear infinite;
-  -webkit-transition: 10s linear, opacity 10s linear;
+
 }
 
 .box div:nth-child(2) {
