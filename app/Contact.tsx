@@ -38,9 +38,11 @@ const Contact = (props: Props) => {
           </li>
         </ul>
       </div>
-<div className='w-full flex justify-center text-white p-8'>
-<button className='text-2xl  w-[70%] md:w-[44%] p-2 transparent4s text-white border-[1px] border-white rounded-lg hover:bg-gray-500 animation ease-in duration-300 hover:translate-y-[-3%]'>Get in touch</button>
-</div>
+      <div className="w-full flex justify-center text-white p-8">
+        <button className="text-2xl  w-[70%] md:w-[44%] p-2 transparent4s text-white border-[1px] border-white rounded-lg hover:bg-gray-500 animation ease-in duration-300 hover:translate-y-[-3%]">
+          Get in touch
+        </button>
+      </div>
     </>
   );
 };

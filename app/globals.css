@@ -133,6 +133,11 @@ body {
 
 .slide-in-element {
   animation: slide-in 1s ease-in-out forwards; 
+  animation-delay: 500ms;
+}
+
+.slide-in-element2s {
+  animation: slide-in 2s ease-in-out forwards
 }
 
 @keyframes slide-in {
