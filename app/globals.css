@@ -129,7 +129,8 @@ body {
     z-index:  -999999;
   }
 
-  100% {
+  95% {
     opacity: 0;
+    display: hidden;
   }
 }
