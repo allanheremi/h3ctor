@@ -9,7 +9,7 @@ const config: Config = {
   theme: {
     extend: {
       backgroundImage: {
-        'custom-gradient': 'linear-gradient(90deg, #000000 55%, #650d00 30%, #ff4d00 100%)',
+        'custom-gradient': 'linear-gradient(90deg, #000000, #650d00, #ff4d00)',
       },
     },
   },
