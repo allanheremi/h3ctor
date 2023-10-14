@@ -8,35 +8,7 @@ export default function Home() {
         <div className="box">
           <div>
             <img
-              src="/deed1.avif"
-              alt=""
-              className="rounded-full object-cover aspect-square opacity-20"
-            />
-          </div>
-          <div>
-            <img
-              src="/deed2.avif"
-              alt=""
-              className="rounded-full object-cover aspect-square opacity-20"
-            />
-          </div>
-          <div>
-            <img
-              src="/mayc.avif"
-              alt=""
-              className="rounded-full object-cover aspect-square opacity-20"
-            />
-          </div>
-          <div>
-            <img
-              src="/deed3.avif"
-              alt=""
-              className="rounded-full object-cover aspect-square opacity-20"
-            />
-          </div>
-          <div>
-            <img
-              src="/hound1.png"
+              src="/koda1.png"
               alt=""
               className="rounded-full object-cover aspect-square opacity-20"
             />
@@ -50,28 +22,56 @@ export default function Home() {
           </div>
           <div>
             <img
-              src="/koda2.png"
+              src="/koda1.png"
               alt=""
               className="rounded-full object-cover aspect-square opacity-20"
             />
           </div>
           <div>
             <img
-              src="/koda3.png"
+              src="/koda1.png"
               alt=""
               className="rounded-full object-cover aspect-square opacity-20"
             />
           </div>
           <div>
             <img
-              src="/koda4.png"
+              src="/koda1.png"
               alt=""
               className="rounded-full object-cover aspect-square opacity-20"
             />
           </div>
           <div>
             <img
-              src="/cartel.jpeg"
+              src="/koda1.png"
+              alt=""
+              className="rounded-full object-cover aspect-square opacity-20"
+            />
+          </div>
+          <div>
+            <img
+              src="/koda1.png"
+              alt=""
+              className="rounded-full object-cover aspect-square opacity-20"
+            />
+          </div>
+          <div>
+            <img
+              src="/koda1.png"
+              alt=""
+              className="rounded-full object-cover aspect-square opacity-20"
+            />
+          </div>
+          <div>
+            <img
+              src="/koda1.png"
+              alt=""
+              className="rounded-full object-cover aspect-square opacity-20"
+            />
+          </div>
+          <div>
+            <img
+              src="/koda1.png"
               alt=""
               className="rounded-full object-cover aspect-square opacity-20"
             />

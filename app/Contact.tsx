@@ -11,7 +11,7 @@ const Contact = (props: Props) => {
             <img
               src="/opensea.png"
               alt="opensea"
-              className="w-[4rem] clip text-transparent3s cursor-pointer "
+              className="w-[4rem] clip text-transparent3s cursor-pointer hover:translate-y-[-5%] duration-200"
             />
           </a>
         </li>
