@@ -131,6 +131,20 @@ body {
   animation: animate 5s linear infinite;
 }
 
+.slide-in-element {
+  animation: slide-in 1s ease-in-out forwards; 
+}
+
+@keyframes slide-in {
+  0% {
+    transform: translateX(-400%);
+  }
+  100% {
+    transform: initial
+  }
+}
+
+
 @keyframes animate {
 
   0% {

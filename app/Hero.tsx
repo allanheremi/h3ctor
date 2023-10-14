@@ -12,7 +12,7 @@ const Hero = (props: Props) => {
             alt="image"
             className="max-h-[50vh] rounded-lg object-cover md:object-contain"
           /> */}
-<img src="/koda5.jpeg" alt="Mutant ape yacht club 7826" className='w-[4rem] rounded-full'/>
+<img src="/koda5.jpeg" alt="Mutant ape yacht club 7826" className='w-[4rem] rounded-full slide-in-element'/>
           <h1 className="text-center py-4 text-2xl font-mono bg-white bg-gradient-to-tr-custom-gradient bg-clip-text text-transparent">
             Hello, I'm h3ctor.eth
           </h1>
