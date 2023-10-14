@@ -10,70 +10,70 @@ export default function Home() {
             <img
               src="/koda1.png"
               alt=""
-              className="rounded-full object-cover aspect-square opacity-20"
+              className="rounded-full object-cover opacity-20"
             />
           </div>
           <div>
             <img
               src="/koda1.png"
               alt=""
-              className="rounded-full object-cover aspect-square opacity-20"
+              className="rounded-full object-cover opacity-20"
             />
           </div>
           <div>
             <img
               src="/koda1.png"
               alt=""
-              className="rounded-full object-cover aspect-square opacity-20"
+              className="rounded-full object-cover opacity-20"
             />
           </div>
           <div>
             <img
               src="/koda1.png"
               alt=""
-              className="rounded-full object-cover aspect-square opacity-20"
+              className="rounded-full object-cover opacity-20"
             />
           </div>
           <div>
             <img
               src="/koda1.png"
               alt=""
-              className="rounded-full object-cover aspect-square opacity-20"
+              className="rounded-full object-cover opacity-20"
             />
           </div>
           <div>
             <img
               src="/koda1.png"
               alt=""
-              className="rounded-full object-cover aspect-square opacity-20"
+              className="rounded-full object-cover opacity-20"
             />
           </div>
           <div>
             <img
               src="/koda1.png"
               alt=""
-              className="rounded-full object-cover aspect-square opacity-20"
+              className="rounded-full object-cover opacity-20"
             />
           </div>
           <div>
             <img
               src="/koda1.png"
               alt=""
-              className="rounded-full object-cover aspect-square opacity-20"
+              className="rounded-full object-cover opacity-20"
             />
           </div>
           <div>
             <img
               src="/koda1.png"
               alt=""
-              className="rounded-full object-cover aspect-square opacity-20"
+              className="rounded-full object-cover opacity-20"
             />
           </div>
           <div>
             <img
               src="/koda1.png"
               alt=""
-              className="rounded-full object-cover aspect-square opacity-20"
+              className="rounded-full object-cover opacity-20"
             />
           </div>
         </div>
