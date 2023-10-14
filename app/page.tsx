@@ -12,9 +12,9 @@ export default function Home() {
           <img src="/koda4.jpeg" alt="" className='opacity-10 max-w-[24px] max-h-[24px] rounded-full ' />
           <img src="/koda5.jpeg" alt="" className='opacity-10 max-w-[24px] max-h-[24px] rounded-full ' />
           <img src="/koda6.jpeg" alt="" className='opacity-10 max-w-[24px] max-h-[24px] rounded-full ' />
-          <img src="/koda1.jpeg" alt="" className='opacity-10 max-w-[24px] max-h-[24px] rounded-full ' />
+          <img src="/h3ctorbg.jpeg" alt="" className='opacity-10 max-w-[24px] max-h-[24px] rounded-full ' />
           <img src="/koda2.jpeg" alt="" className='opacity-10 max-w-[24px] max-h-[24px] rounded-full ' />
-          <img src="/koda3.jpeg" alt="" className='opacity-10 max-w-[24px] max-h-[24px] rounded-full ' />
+          <img src="/h3ctorbg.jpeg.jpeg" alt="" className='opacity-10 max-w-[24px] max-h-[24px] rounded-full ' />
           <img src="/koda4.jpeg" alt="" className='opacity-10 max-w-[24px] max-h-[24px] rounded-full ' />
         </div>
         <Hero />
