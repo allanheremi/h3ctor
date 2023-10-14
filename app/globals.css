@@ -23,9 +23,14 @@
   opacity: 0;
 }
 
+.transparent4s {
+  animation: fade 4s ease-in 4s forwards;
+  opacity: 0;
+}
+
 @keyframes fade {
   0% {
-   opacity: 0;
+    opacity: 0;
   }
   100% {
     opacity: 1;
@@ -43,34 +48,17 @@ body {
   width: 100%;
   height: 100%;
   overflow: hidden;
-  background: #24C6DC; 
-  background: -webkit-linear-gradient(to bottom, #000000, rgb(73, 73, 73));  
-  background: linear-gradient(to bottom, #000000, rgb(73, 73, 73)); 
+  background: #24c6dc;
+  background: -webkit-linear-gradient(to bottom, #000000, rgb(73, 73, 73));
+  background: linear-gradient(to bottom, #000000, rgb(73, 73, 73));
   z-index: -1;
 }
 
-.box div {
-  position: absolute;
-  width: 60px;
-  height: 60px;
-  background-color: transparent;
-  opacity: 1;
-  transition: transform 10s linear, opacity 10s linear;
-  -webkit-transition: -webkit-transform 10s linear, opacity 10s linear;
-
-}
-
-
-
-@keyframes animate {
-  0% {
-    transform: scale(0) translateY(-90px) rotate(360deg);
-    opacity: 1;
-  }
-  
-  100% {
-    transform: scale(1.3) translateY(-90px) rotate(-180deg);
-    border-radius: 50%;
-    opacity: 0;
-  }
+.morphism {
+  background: rgba(255, 255, 255, 0.4);
+  box-shadow: 0 2px 8px 0 rgba(255, 255, 255, 0.37);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
 }
