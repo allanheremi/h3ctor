@@ -14,7 +14,7 @@ const Hero = (props: Props) => {
           /> */}
 <img src="/koda5.jpeg" alt="Mutant ape yacht club 7826" className='w-[4rem] rounded-full'/>
           <h1 className="text-center py-4 text-2xl font-mono bg-white bg-gradient-to-tr-custom-gradient bg-clip-text text-transparent">
-            Hello, I'm H3ctor
+            Hello, I'm h3ctor.eth
           </h1>
 
           <h2 className="flex max-w-[100%] font-mono bg-white bg-clip-text text-transparent2s">
