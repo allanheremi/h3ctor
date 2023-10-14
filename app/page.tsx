@@ -6,76 +6,13 @@ export default function Home() {
     <>
       <div className="wrapper">
         <div className="box">
-          <div>
-            <img
-              src="/koda1.png"
-              alt=""
-              className="rounded-full object-cover opacity-20"
-            />
-          </div>
-          <div>
-            <img
-              src="/koda1.png"
-              alt=""
-              className="rounded-full object-cover opacity-20"
-            />
-          </div>
-          <div>
-            <img
-              src="/koda1.png"
-              alt=""
-              className="rounded-full object-cover opacity-20"
-            />
-          </div>
-          <div>
-            <img
-              src="/koda1.png"
-              alt=""
-              className="rounded-full object-cover opacity-20"
-            />
-          </div>
-          <div>
-            <img
-              src="/koda1.png"
-              alt=""
-              className="rounded-full object-cover opacity-20"
-            />
-          </div>
-          <div>
-            <img
-              src="/koda1.png"
-              alt=""
-              className="rounded-full object-cover opacity-20"
-            />
-          </div>
-          <div>
-            <img
-              src="/koda1.png"
-              alt=""
-              className="rounded-full object-cover opacity-20"
-            />
-          </div>
-          <div>
-            <img
-              src="/koda1.png"
-              alt=""
-              className="rounded-full object-cover opacity-20"
-            />
-          </div>
-          <div>
-            <img
-              src="/koda1.png"
-              alt=""
-              className="rounded-full object-cover opacity-20"
-            />
-          </div>
-          <div>
-            <img
-              src="/koda1.png"
-              alt=""
-              className="rounded-full object-cover opacity-20"
-            />
-          </div>
+          {Array.from({ length: 6 }).map((_, index) => (
+            <div key={index} className={`circle-${index + 1}`}><img
+            src="/koda1.png"
+            alt=""
+            className="rounded-full object-cover opacity-20"
+          /></div>
+          ))}
         </div>
       </div>
       <Hero />
@@ -83,3 +20,6 @@ export default function Home() {
     </>
   );
 }
+
+
+
