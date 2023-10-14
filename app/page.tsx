@@ -7,11 +7,13 @@ export default function Home() {
       <div className="wrapper">
         <div className="box">
           {Array.from({ length: 6 }).map((_, index) => (
-            <div key={index} className={`circle-${index + 1}`}><img
-            src="/koda1.png"
-            alt=""
-            className="rounded-full object-cover opacity-20"
-          /></div>
+            <div key={index}>
+              <img
+                src="/koda1.png"
+                alt=""
+                className="rounded-full object-cover opacity-20"
+              />
+            </div>
           ))}
         </div>
       </div>
@@ -20,6 +22,3 @@ export default function Home() {
     </>
   );
 }
-
-
-
