@@ -9,6 +9,13 @@
   opacity: 0;
 }
 
+.text-transparent2s {
+  -webkit-text-fill-color: transparent;
+  animation: fade 2.5s ease-in 2.5s forwards;
+  pointer-events: none;
+  opacity: 0;
+}
+
 @keyframes fade {
   0% {
    opacity: 0;

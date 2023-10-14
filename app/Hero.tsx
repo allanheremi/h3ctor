@@ -17,19 +17,19 @@ const Hero = (props: Props) => {
             Hello, I'm H3ctor
           </h1>
 
-          <h2 className="flex max-w-[100%] font-mono bg-black bg-clip-text text-transparent">
+          <h2 className="flex max-w-[100%] font-mono bg-black bg-clip-text text-transparent2s">
             Web3 native with experience of community management and developing
             brands. <br /> <br />
           </h2>
           <div className="flex flex-col">
             <ul className="list-none">
-              <li className='font-mono bg-black bg-clip-text text-transparent'>
+              <li className='font-mono bg-black bg-clip-text text-transparent2s'>
                 Moderator{' '}
                 <a href="https://www.novellabs.xyz/mutantcartel">
                   @ Mutant cartel
                 </a>
               </li>
-              <li className='font-mono bg-black bg-clip-text text-transparent'>
+              <li className='font-mono bg-black bg-clip-text text-transparent2s'>
                 Crew <a href='https://twitter.com/boredkitchen_'>@ Bored kitchen</a>
               </li>
             </ul>
