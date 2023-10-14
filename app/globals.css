@@ -16,6 +16,13 @@
   opacity: 0;
 }
 
+.text-transparent3s {
+  -webkit-text-fill-color: transparent;
+  animation: fade 3.25s ease-in 3.25s forwards;
+  pointer-events: none;
+  opacity: 0;
+}
+
 @keyframes fade {
   0% {
    opacity: 0;
@@ -28,6 +35,7 @@
 body {
   margin: 0;
   padding: 0;
+  color: white;
 }
 
 .wrapper {
@@ -36,8 +44,8 @@ body {
   height: 100%;
   overflow: hidden;
   background: #24C6DC; 
-  background: -webkit-linear-gradient(to bottom, #514A9D, #24C6DC);  
-  background: linear-gradient(to bottom, rgb(122, 251, 122), rgb(208, 136, 2)); 
+  background: -webkit-linear-gradient(to bottom, #000000, rgb(73, 73, 73));  
+  background: linear-gradient(to bottom, #000000, rgb(73, 73, 73)); 
   z-index: -1;
 }
 
@@ -46,7 +54,7 @@ body {
   width: 60px;
   height: 60px;
   background-color: transparent;
-  border: 6px solid rgba(255,255,255,0.8);
+
 }
 
 .box div:nth-child(1) {
