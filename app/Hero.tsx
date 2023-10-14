@@ -17,7 +17,7 @@ const Hero = (props: Props) => {
             Hello, I'm h3ctor.eth
           </h1>
 
-          <h2 className="flex max-w-[100%] font-mono bg-white bg-clip-text text-transparent2s">
+          <h2 className="flex max-w-[100%] font-mono bg-[#e1e1e1] bg-clip-text text-transparent2s">
             Web3 native with experience of community management and developing
             brands. <br /> <br />
           </h2>
