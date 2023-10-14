@@ -9,7 +9,7 @@ export default function Home() {
           {Array.from({ length: 6 }).map((_, index) => (
             <div key={index}>
               <img
-                src="/koda1.png"
+                src={`/koda${index}.png`}
                 alt=""
                 className="rounded-full object-cover opacity-20"
               />
