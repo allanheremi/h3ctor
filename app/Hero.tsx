@@ -5,14 +5,14 @@ type Props = {};
 const Hero = (props: Props) => {
   return (
     <>
-      <div className="p-8 flex justify-start items-center lg:justify-center">
+      <div className="p-8 pt-12 flex justify-start items-center lg:justify-center">
         <div className="flex flex-col">
           {/* <img
             src="/h3ctorbg.jpeg"
             alt="image"
             className="max-h-[50vh] rounded-lg object-cover md:object-contain"
           /> */}
-
+<img src="/koda5.png" alt="Mutant ape yacht club 7826" className='w-[4rem] rounded-full'/>
           <h1 className="text-center py-4 text-2xl font-mono bg-white bg-gradient-to-tr-custom-gradient bg-clip-text text-transparent">
             Hello, I'm H3ctor
           </h1>

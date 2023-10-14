@@ -38,21 +38,9 @@ const Contact = (props: Props) => {
           </li>
         </ul>
       </div>
-
-      <div className='w-screen flex justify-center py-4 transparent4s'>
-        <div className='w-[80%] md:w-[60%]'>
-        <form className="flex flex-col justify-center morphism p-8">
-          <input type="hidden" name="contact_number"  />
-          <label>Name</label>
-          <input type="text" name="user_name" className='rounded-sm text-black px-2 py-1' />
-          <label>Email</label>
-          <input type="email" name="user_email" className='rounded-sm text-black px-2 py-1' />
-          <label>Message</label>
-          <textarea name="message" className='rounded-sm text-black px-2 py-1'></textarea>
-          <input type="submit" value="Send"  />
-        </form>
-        </div>
-      </div>
+<div className='w-full flex justify-center text-white p-8'>
+<button className='text-2xl  w-[50%] p-2 transparent4s text-white border-[1px] border-white rounded-lg hover:bg-gray-500 animation ease-in duration-300 hover:translate-y-[-5%]'>Get in touch</button>
+</div>
     </>
   );
 };
